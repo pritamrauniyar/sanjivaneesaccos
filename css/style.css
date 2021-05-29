@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+    margin: 0px auto;
+    background-color: #01940F;
+}
+
+
+/* logo styling */
+.logo{
+    display: flex;
+    justify-content: center;
+     
+}
+.logo img{
+    height: 100px;
+}
+
+
+/* White Part Width */
+.container{
+     
+    width: 80vw;
+    margin: 0px auto;
+    background-color: white;
+}
+
+
+/* navbar styling */
+nav{
+    background-color: #01940F;
+}
+nav ul{
+     
+    display: flex;
+    justify-content: flex-start;
+    
+     
+}
+nav ul li{
+    padding: 10px 30px;
+    list-style: none;
+}
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+ 
+nav ul li:hover{
+     
+    background-color: #E64946;
+    
+}
+ 
+
+/* checkbutton used in nav menu for mobile and tablet purpose */
+.checkbtn{
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+    display: none;
+}
+#check{
+    display: none;
+     
+}
+hr{
+    display: none;
+}
+
+
+
+/* footer Styling */
+footer{
+    height: 40px;
+    width: 80vw;
+    
+    margin: 0px auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    padding: 0px 20px;
+    color: white;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+footer p a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}

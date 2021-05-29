@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjivanee Saving and Credit Co-operative</title>
+    <!-- add icon link -->
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/vacancy.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- logo -->
+    <!-- Logo width are customized according to pixels -->
+    <div class="logo">
+        <a href="index.html"> <img src="img/logo.jpg" alt="logo"></a>
+    </div>
+
+    <!-- 
+    This container contains the whole white body part including footer -->
+    <div class="container">
+
+        <header>
+
+            <!-- Navigation bar -->
+            <nav>
+
+                <!-- Nav Checkbox for mobile friendly menu -->
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <img src="img/navbaricon.png" alt="" class="navbaricon" width="35px">
+                </label>
+
+                <hr class="line">
+
+                <!-- Nav Menu -->
+                <ul>
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="product.html">PRODUCT AND SERVICES</a></li>
+                    <li><a href="news.html">NEWS AND EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="vacancy.html">VACANCY</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+
+
+
+
+            <!-- Code for Form -->
+            <div class="contactbody">
+                <!-- phd used to receive form from user -->
+                <form action="php/mail_handler.php" method="post">
+
+
+                    <h2> APPLY NOW</h2>
+                    <div class="cb-parta">
+                        <div class="cb-frstname">
+                            <label for=" First name" class="form-label">First Name</label>
+                            <input type="text" name="firstname" class="form-control" placeholder="First name"
+                                aria-label="First name" required>
+                        </div>
+                        <div class="cb-middlename">
+                            <label for=" Middle name" class="form-label">Middle Name</label>
+                            <input type="text" name="middlename" class="form-control" placeholder="Middle name"
+                                aria-label="Middle name">
+                        </div>
+                        <div class="cb-lstname">
+                            <label for="Last name" class="form-label">Last Name</label>
+                            <input type="text" name="lastname" class="form-control" placeholder="Last name"
+                                aria-label="Last name" required>
+                        </div>
+                    </div>
+                    <div class="cb-partb">
+                        <div class="c-address">
+                            <label for=" Full Address" class="form-label">Current Address</label>
+                            <input type="text" name="fulladdress" class="form-control" placeholder="Full Address"
+                                aria-label="Full Address" required>
+                        </div>
+                        <div class="cb-partc">
+                            <div class="p-address">
+                                <label for=" Full Address" class="form-label">Permanent Address</label>
+                                <input type="text" name="fulladdress" class="form-control" placeholder="Full Address"
+                                    aria-label="Full Address" required>
+                            </div>
+
+                        </div>
+                        <div class="cb-email">
+
+                            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                            <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com" required>
+
+                        </div>
+                        <div class="cb-num">
+
+                            <label for="formGroupExampleInput" class="form-label">Phone Number</label>
+                            <input type="tel" name="phone" class="form-control" id="formGroupExampleInput"
+                                placeholder="Your 10 digit mobile number " required>
+                        </div>
+                        <div class="dob">
+                            <label for="dobage" class="form-label">Date Of Birth</label>
+                            <input type="date" class="dob-in" id="dobage" required>
+                        </div>
+                        <div class="cb-pos">
+                            <label for="posselect">Applying For Position</label>
+
+
+                            <select name="postion" id="posselect" required>
+                                <option value="">--Please choose an option--</option>
+                                <option value="accountantandmanagement">Accountant & Management</option>
+
+                                <option value="computeroperator">computer Operator</option>
+
+                                <option value="cashier">Cashier</option>
+
+                                <option value="marketingrepresentative">marketing Representative</option>
+
+                                <option value="anyoftheabove">Any of the above</option>
+                            </select>
+                        </div>
+                        <div class="tandc">
+                            <input type="checkbox" id="checktandc" required>
+
+                            <label for="tandc">By clicking the apply button below, I certify that all of the information
+                                provided by me on this application is true and complete, and I understand that if any
+                                false information, ommissions, or misrepresentations are discovered, my application may
+                                be rejected and, if I am employed in the banking or co-operative sector, my employement
+                                may be terminated at any time. In consideration of my employment, I agree to conform to
+                                the Sanjivanee Saccos rules and regulations, and I agree that my employment and
+                                compenstation can be terminated, with or without cause, and with or without notice, at
+                                any time, at either my or the Sanjivanee Saccos option. I also understand and agree that
+                                the terms and conditions of my employment may be changed, with or without cause, and
+                                with or without notice, at any time by the Sanjivanee Saccos. <br>NOTE:- Please, send
+                                your job application ( should be written in nepali ) and your resume through
+                                support@sanjivaneesaccosjnk.com.np. </label>
+
+                        </div>
+ 
+                        <div class="formbutton">
+                            <button class="btn" style="margin: 15px;">Apply</button>
+                        </div>
+                </form>
+            </div>
+
+    </div>
+
+    </main>
+
+
+
+      <!-- Footer -->
+      <footer>
+        <p>CopyRight &copy; Sanjivanee Saving and Credit Co-operative Ltd | Developed By <a href="https://pritamrauniyar.com.np/"  >Pritam Rauniyar</a></p>
+    </footer>
+    </div>
+
+
+</body>
+
+</html>

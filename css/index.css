@@ -1,0 +1,103 @@
+ 
+
+/* upper bo dy section styling  */
+
+
+.seca{
+     
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+     
+}
+
+
+/* Seca cola */
+.noticetxt{
+    width: 500px;
+}
+ 
+ 
+.noticetxt h3{
+     
+    color: #23A455;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 20px 20px 20px 35px;
+     
+}
+.noticetxt h4{
+    color: #23A455;
+    padding: 20px 20px 20px 35px;
+     
+}
+.noticetxt p{
+    padding: 20px 20px 20px 35px;
+     
+}
+
+/* seca colb */
+.noticeimg{
+    text-align: left;
+    padding-left: 20px 0px 20px 170px;
+     
+} 
+ 
+
+/* Lower Body Styles */
+.secb{
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+ 
+.product h3{
+     
+    color: #23A455;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 20px 20px 20px 35px;
+     
+}
+.secb h5{
+    padding: 20px 20px 20px 35px;
+}
+.col-a{
+    padding: 20px 20px 20px 35px;
+}
+.col-b{
+    padding: 20px;
+}
+.col-c{
+    padding: 20px;
+}
+.col-d{
+    padding: 20px;
+}
+.secb ul{
+    padding: 20px;
+     
+}
+.secb ul li{
+     
+    font-weight: 500;
+}
+.btn{
+    padding-top: 10px;
+}
+ .btn button{
+     padding: 10px 20px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+}
+.btn button:hover{
+    padding: 10px 20px;
+   background-color: #913333;
+   color: white;
+   border-radius: 5px;
+}
+
+
+ 

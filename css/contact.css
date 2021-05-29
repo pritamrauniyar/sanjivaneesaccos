@@ -1,0 +1,63 @@
+.mb-3{
+    display: flex;
+   justify-content: center;
+  }
+  .formbutton{
+    display: flex;
+   justify-content: center;
+   padding-bottom: 40px;
+  }
+  .contactbody{
+    display: flex;
+    justify-content: center;
+  }
+  .contactbody h2{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+/* 
+  font-family: 'Roboto', sans-serif; */
+  .cb-parta{
+    padding: 5px 0px;
+    display: flex;
+  }
+  .cb-email{
+
+    padding: 5px 0px;
+  }
+  .cb-num{
+
+    padding: 5px 0px;
+  }
+  .cb-msg{
+
+    padding: 5px 0px;
+  }
+  .btn{
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+
+  }
+  .form-label{
+    padding: 5px 10px;
+  }
+  .form-control{
+    padding: 5px;
+    width: 50%;
+  }
+  .contactdetail{
+   
+    color: #01940F;
+     text-align: center;
+     padding-bottom: 20px;
+     
+  }
+  .contactdetail p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+  }
